@@ -1,0 +1,38 @@
+ body{
+        background:#68cdd5;
+        overflow:hidden;
+        text-align:center;
+    }
+    .arrow{
+       text-align: left;
+    }
+    .icon1{
+        float:left;
+        color:white;
+        font-weight:normal;
+        margin-top:20%;
+        margin-left:15%;
+
+    }
+    .icon2{
+        float:right ;
+        color:white;
+        font-weight: normal;
+        margin-top:20%;
+        margin-right:15%;
+    }
+    .article{
+        color:white;
+        font-weight:normal;
+        display:inline-block;
+        text-align:left;
+    }
+    .logo{
+        margin-top:5%;
+        margin-bottom: 10%;
+    }/*
+* @Author: Marte
+* @Date:   2018-04-08 16:53:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-08 17:04:57
+*/
