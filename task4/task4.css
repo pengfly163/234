@@ -38,8 +38,8 @@ body{
     align-items: center;
     background: white;
     height: 5.4rem;
-    width: 100%;
-    flex-basis: 100%;
+    width: 100vw;
+    flex-basis: 100vw;
     flex-wrap: nowrap;
     margin-bottom: 1rem;
 }
@@ -60,7 +60,7 @@ body{
     font-size:1.3rem;
 }
 .button{
-    width:100%;
+    width:100vw;
     font-size:2rem;
     height:5rem;
     line-height:5rem;
