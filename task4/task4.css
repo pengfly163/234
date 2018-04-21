@@ -1,0 +1,77 @@
+body,div,p{
+    margin:0;
+}
+body{
+    background:#eff0f4;
+}
+.flex{
+    display: flex;
+    flex-wrap:wrap;
+    flex-basis:100%;
+    width:100%;
+}
+.head{
+    height:5rem;
+    line-height:5rem;
+    width:100%;
+    background:#5fc0cd;
+    color:white;
+    font-size:1.6rem;
+    flex-basis:100%;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:1rem;
+}
+.side{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select:none;
+}
+.center{
+    user-select:none;
+}
+.login{
+    height:5.4rem;
+    line-height:5.4rem;
+    display: flex;
+    align-items: center;
+    background: white;
+    height: 5.4rem;
+    width: 100%;
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 1rem;
+}
+.phone{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.line{
+    margin-top: 2.3rem;
+    margin-left: 0.3rem;
+}
+.lock{
+    margin-top: 2.3rem;
+    margin-left: 1rem;
+}
+::-webkit-input-placeholder {
+    color:#e1e5e7;
+    font-size:1.3rem;
+}
+.button{
+    width:100%;
+    font-size:2rem;
+    height:5rem;
+    line-height:5rem;
+    background:#5fc0cd;
+    color:white;
+    border:none;
+    margin-bottom:1.2rem;
+}
+.forget{
+    flex-direction:row-reverse;
+    font-size:1.2rem;
+    color:#5fc0cd;
+    cursor: pointer;
+}
