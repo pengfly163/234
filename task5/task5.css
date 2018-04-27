@@ -1,0 +1,219 @@
+html{font-size: 20px;}
+body,p,div,footer{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ffffff;
+    padding-bottom: 80px;
+}
+header{
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    background-color: #5fc0cd;
+}
+.p{
+    text-align: center;
+    font-size:1rem;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+}
+.back{
+    float: left;
+    margin-left: 20px;
+}
+footer {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    background:#ffffff;
+}
+.button1{
+    width: 45%;
+    height: 60px;
+    line-height:60px;
+    border: 2px solid #5fc0cd;
+    border-radius: 10px;
+    color: #5fc0cd;
+    background-color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.button2{
+    width: 45%;
+    height: 60px;
+    line-height:60px;
+    border: 2px solid #5fc0cd;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #5fc0cd;
+    font-size: 1rem;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+    background-color: #ffffff;
+
+}
+.bg{
+    margin-top: 3.0rem;
+    height: 9rem;
+    background-size: cover;
+    padding: 0;
+    background-image: url("images/background.png");
+}
+.ava{
+    float: left;
+    height: 4.3rem;
+    margin-top: 2.3rem;
+    margin-left: 1rem;
+}
+.bg-into{
+    float: left;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-weight: lighter;
+}
+.name{
+    float:left;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+}
+.age{
+    float:left;
+    padding-left: 1rem;
+    color: #ffffff;
+    letter-spacing: 0.1rem;
+}
+.location{
+    margin-top: 2rem;
+}
+.locationp{
+    float: left;
+    padding-right: 1.0rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    color: #ffffff;
+    font-size:0.6rem;
+    height: 0.8rem;
+}
+.line1{
+    float: left;
+    height:3rem;
+    width:100%;
+    border-bottom-color:#e1e5e7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+.line1 div{
+    margin-left:1rem;
+    margin-top:1rem;
+    font-size:0.9rem;
+    padding-left:1rem;
+    height:1rem;
+    line-height:1rem;
+    border-left-color:#5fc0cd;
+    border-left-style:solid;
+    letter-spacing: 0.1rem;
+}
+.line2{
+    float: left;
+    height:3rem;
+    border-bottom-color:#e1e5e7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    width:calc(100% - 1.125rem);
+    margin-left:1.125rem;
+}
+.line2-1{
+    float: left;
+    margin-left: 1rem;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.85rem;
+    font-weight: lighter;
+    margin-top:0.9rem;
+}
+.line2-2{
+    float: left;
+    margin-left: 1rem;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.85rem;
+    font-weight: lighter;
+    margin-top:0.9rem;
+}
+.star{
+    width: 0.85rem;
+}
+.lineNormal{
+    float: left;
+    height:3rem;
+    border-bottom-color:#e1e5e7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    width:calc(100% - 1.125rem);
+    margin-left:1.125rem;
+}
+.line-left{
+    float: left;
+    margin-left: 1rem;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.85rem;
+    font-weight: lighter;
+    margin-top:0.9rem;
+    color: #999999;
+    padding-right: 1rem;
+    border-right-color: #e1e5e7;
+    border-right-width: 1px;
+    border-right-style:solid;
+}
+.line-right{
+    height: 100%;
+    float: left;
+    margin-left: 1rem;
+    height:1rem;
+    line-height:1rem;
+    font-size:0.85rem;
+    margin-top:0.9rem;
+}
+.last-line {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left:1.125rem;
+    width:calc(100% - 1.125rem);
+    border-bottom-color:#e1e5e7;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+}
+.last-line-left{
+    flex-shrink: 0;
+    align-items: center;
+
+    font-size:0.85rem;
+    font-weight: lighter;
+    margin-left: 1rem;
+    color: #999999;
+    padding-right: 1rem;
+    border-right-color: #e1e5e7;
+    border-right-width: 1px;
+    border-right-style:solid;
+}
+.last-line-right{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size:0.85rem;
+}
