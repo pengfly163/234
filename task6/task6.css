@@ -1,0 +1,143 @@
+.bg-top1 {
+    position: absolute;
+    right: 0.1rem;
+    top: 0.3rem;
+    width: 47px; height: 51px;
+    background: url('css_sprites.png') -125px -10px;
+}
+.-floor-left{
+    color: #5fc0cd;
+    margin-left: 0.1rem;
+}
+.-floor-rigt{
+    color: #999999;
+    margin-left: 0.1rem;
+}
+.bg-floor2 {
+    margin-top: 0.1rem;
+    width: 95px; height: 97px;
+    background: url('css_sprites.png') -10px -10px;
+}
+html{
+    font-size: 20px;
+}
+body{
+    background: #ffffff;
+    padding-bottom: 100px;
+}
+body,html,div,span,ul,p{
+    margin: 0px;
+    padding: 0px;
+}
+/*------头部---------*/
+header{
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    line-height: 60px;
+    width: 100vw;
+    background-color: #5fc0cd;
+}
+.header-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+
+}
+.header-button-left{
+    background-color: #55a8b3;
+    width: 28%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px ;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.header-button-rigt{
+    width: 28%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: -11px;
+    border: 1px ;
+    color: #5fc0cd;
+    cursor: pointer;
+    font-size: 1rem;
+}
+/*-----------尾部--------------*/
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 100px;
+    width: 100vw;
+    background-color: #f8fafb;
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-around;
+}
+/*----------中部-----------*/
+main{
+    width: 100vw;
+    background-color: #ffffff;
+    margin-top: 110px;
+    padding-bottom: 100px;
+}
+.uls{
+    list-style: none;
+}
+.lis{
+    border-bottom: #b6b6b6;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.lis .imgs{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.lis .spans{
+    display: inline-block;
+    color: #b6b6b6;
+    font-size: 0.9rem;
+}
+p{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.date{
+    flex-grow: 1;
+    margin-left: 42px;
+    color: #333333;
+    overflow:hidden; /*超出宽度部分的隐藏*/
+    white-space:nowrap; /*文字不换行*/
+    text-overflow:ellipsis; /*超出则...代替*/
+}
+.price{
+    margin-right: 30px;
+    color: #e63b0e;
+    overflow:hidden; /*超出宽度部分的隐藏*/
+    white-space:nowrap; /*文字不换行*/
+    text-overflow:ellipsis; /*超出则...代替*/
+}
+/*--------下拉表----------*/
+.nav{
+    position: fixed;
+    top: 60px;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    margin: 0 auto;
+}
+select{
+    font-size: 0.9rem;
+    color: #b6b6b6;
+    border-top: none;
+    width: 33.33vw;
+}
